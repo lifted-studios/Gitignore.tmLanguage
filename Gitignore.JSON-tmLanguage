@@ -1,11 +1,14 @@
-{ "name": "Gitignore",
-  "scopeName": "text.gitignore",
-  "fileTypes": [".gitignore"],
-  "patterns": [
-    { "match": "#.*",
-      "name": "comment.gitignore",
-      "comment": "Comments"
-    }
-  ],
-  "uuid": "f4eb6552-9205-47cf-9d18-6388d5449516"
+{ 
+    "name": "Gitignore",
+    "scopeName": "text.gitignore",
+    "fileTypes": [".gitignore"],
+    "patterns": [
+        { 
+            "match": "^#.*",
+            "name": "comment.gitignore",
+            "comment": "Comments"
+        }
+    ],
+    
+    "uuid": "f4eb6552-9205-47cf-9d18-6388d5449516"
 }
